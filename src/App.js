@@ -1,4 +1,5 @@
 import { Fragment } from 'react'
+import Button from '@material-ui/core/Button';
 
 function App () {
   return (
@@ -9,6 +10,9 @@ function App () {
       <div className="App-other">
         <h1>This is React App-other.</h1>
       </div>
+      <Button variant="contained" color="primary">
+        你好，世界
+    </Button>
     </Fragment>
   )
 }
