@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+//格子函数组件
 function Square(props) {
   return (
     <button
@@ -13,7 +14,7 @@ function Square(props) {
   )
 }
 
-
+//棋盘函数组件
 class Board extends React.Component {
   renderSquare(i) {
     return (
@@ -47,6 +48,7 @@ class Board extends React.Component {
   }
 }
 
+//游戏class组件
 class Game extends React.Component {
   constructor(props) {
     super(props);
